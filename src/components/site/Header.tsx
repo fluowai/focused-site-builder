@@ -1,5 +1,5 @@
 import { MessageCircle } from "lucide-react";
-import logo from "@/assets/logo-auditorium.png";
+import { Logo } from "./Logo";
 import { WHATSAPP_URL } from "./data";
 
 const NAV = [
@@ -13,10 +13,11 @@ const NAV = [
 export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/90 backdrop-blur-md">
-      <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-4 lg:px-8">
-        <a href="#topo" className="flex min-w-0 items-center gap-3">
-          <img src={logo} alt="Auditorium Corporate" className="h-9 w-auto shrink-0" />
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-4 lg:px-8">
+        <a href="#topo" className="min-w-0">
+          <Logo />
         </a>
+
 
         <nav className="hidden items-center gap-8 lg:flex">
           {NAV.map((item) => (
