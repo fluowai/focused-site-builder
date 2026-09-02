@@ -1,6 +1,7 @@
 import { Instagram, Linkedin, Youtube, Facebook, Phone, Mail, MapPin, ArrowRight } from "lucide-react";
-import logo from "@/assets/logo-auditorium.png";
+import { Logo } from "./Logo";
 import { EMAIL, PHONE } from "./data";
+
 
 const NAV = ["Sobre Nós", "Soluções", "Resultados", "Método", "Conteúdos"];
 const SOL = ["Aquisição", "Conversão", "Comercial", "CRM & Dados", "Perpetuação"];
@@ -11,7 +12,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-5 py-14 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-[1.3fr_repeat(3,0.8fr)_1.2fr]">
           <div>
-            <img src={logo} alt="Auditorium Corporate" className="h-9 w-auto" />
+            <Logo />
             <p className="mt-5 max-w-xs text-xs leading-relaxed text-muted-foreground">
               Especialistas em marketing, vendas e gestão para empresas de Home Care que
               querem crescer com previsibilidade.

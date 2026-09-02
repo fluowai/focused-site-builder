@@ -49,7 +49,7 @@ export function Solutions() {
   return (
     <section id="solucoes" className="border-t border-border/60">
       <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20">
-        <div className="grid gap-12 lg:grid-cols-[1.35fr_1fr]">
+        <div className="grid gap-10 lg:grid-cols-[1.75fr_1fr]">
           <div id="metodo">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-soft">
               O que fazemos
