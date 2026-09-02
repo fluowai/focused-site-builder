@@ -63,8 +63,9 @@
   --color-brand-soft: var(--brand-soft);
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
-  --font-sans:
-    "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+
 }
 
 
