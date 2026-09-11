@@ -56,7 +56,12 @@ export function Hero() {
                 com método, processo e dados.
               </p>
 
-              <svg viewBox="0 0 400 220" className="mt-8 w-full" role="img" aria-label="Gráfico de crescimento ascendente">
+              <svg
+                viewBox="0 0 400 220"
+                className="mt-8 w-full"
+                role="img"
+                aria-label="Gráfico de crescimento ascendente"
+              >
                 <defs>
                   <linearGradient id="heroArea" x1="0" y1="0" x2="0" y2="1">
                     <stop offset="0%" stopColor="var(--brand)" stopOpacity="0.25" />
@@ -64,7 +69,15 @@ export function Hero() {
                   </linearGradient>
                 </defs>
                 {[40, 90, 140, 190].map((y) => (
-                  <line key={y} x1="0" y1={y} x2="400" y2={y} stroke="var(--border)" strokeWidth="1" />
+                  <line
+                    key={y}
+                    x1="0"
+                    y1={y}
+                    x2="400"
+                    y2={y}
+                    stroke="var(--border)"
+                    strokeWidth="1"
+                  />
                 ))}
                 <polygon
                   points="0,200 60,170 120,182 180,130 240,142 300,84 360,60 400,34 400,220 0,220"
@@ -87,9 +100,14 @@ export function Hero() {
                   { value: "+642", label: "Contratos gerados" },
                   { value: "+98%", label: "Retenção" },
                 ].map((m) => (
-                  <div key={m.label} className="rounded-lg border border-border bg-background/70 p-3 text-center">
+                  <div
+                    key={m.label}
+                    className="rounded-lg border border-border bg-background/70 p-3 text-center"
+                  >
                     <p className="text-lg font-bold text-brand-soft sm:text-xl">{m.value}</p>
-                    <p className="mt-1 text-[11px] leading-tight text-muted-foreground sm:text-xs">{m.label}</p>
+                    <p className="mt-1 text-[11px] leading-tight text-muted-foreground sm:text-xs">
+                      {m.label}
+                    </p>
                   </div>
                 ))}
               </div>

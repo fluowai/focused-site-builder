@@ -9,12 +9,11 @@ export function FinalCta() {
           <h2 className="text-2xl font-bold leading-tight tracking-tight sm:text-3xl">
             Pronto para transformar seu Home Care
             <br />
-            em uma empresa de{" "}
-            <span className="text-brand-soft">crescimento previsível?</span>
+            em uma empresa de <span className="text-brand-soft">crescimento previsível?</span>
           </h2>
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground">
-            Vamos analisar seu cenário e mostrar o caminho para você conquistar mais
-            contratos particulares e crescer com segurança.
+            Vamos analisar seu cenário e mostrar o caminho para você conquistar mais contratos
+            particulares e crescer com segurança.
           </p>
         </div>
 

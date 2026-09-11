@@ -39,9 +39,21 @@ const CARDS = [
 ];
 
 const NUMBERS = [
-  { icon: BarChart4, value: "+127%", text: "Aumento médio de faturamento dos clientes em 12 meses" },
-  { icon: UsersRound, value: "+3.800", text: "Leads qualificados gerados por mês para nossos clientes" },
-  { icon: Handshake, value: "+642", text: "Novos contratos particulares gerados por nossos clientes" },
+  {
+    icon: BarChart4,
+    value: "+127%",
+    text: "Aumento médio de faturamento dos clientes em 12 meses",
+  },
+  {
+    icon: UsersRound,
+    value: "+3.800",
+    text: "Leads qualificados gerados por mês para nossos clientes",
+  },
+  {
+    icon: Handshake,
+    value: "+642",
+    text: "Novos contratos particulares gerados por nossos clientes",
+  },
   { icon: DollarSign, value: "+98%", text: "Taxa média de retenção e renovação dos contratos" },
 ];
 
@@ -62,10 +74,7 @@ export function Solutions() {
 
             <div className="mt-10 grid gap-5 sm:grid-cols-2 xl:grid-cols-5">
               {CARDS.map(({ icon: Icon, title, text }) => (
-                <div
-                  key={title}
-                  className="rounded-lg border border-border bg-surface p-6"
-                >
+                <div key={title} className="rounded-lg border border-border bg-surface p-6">
                   <Icon className="h-8 w-8 text-brand-soft" />
                   <h3 className="mt-4 text-base font-semibold">{title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{text}</p>
@@ -74,7 +83,10 @@ export function Solutions() {
             </div>
           </div>
 
-          <div id="resultados" className="scroll-mt-24 self-start rounded-xl border border-border bg-surface p-8">
+          <div
+            id="resultados"
+            className="scroll-mt-24 self-start rounded-xl border border-border bg-surface p-8"
+          >
             <p className="text-sm font-semibold uppercase tracking-[0.14em] text-brand-soft">
               Números que comprovam
             </p>

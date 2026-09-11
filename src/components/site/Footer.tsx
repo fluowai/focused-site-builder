@@ -1,7 +1,15 @@
-import { Instagram, Linkedin, Youtube, Facebook, Phone, Mail, MapPin, ArrowRight } from "lucide-react";
+import {
+  Instagram,
+  Linkedin,
+  Youtube,
+  Facebook,
+  Phone,
+  Mail,
+  MapPin,
+  ArrowRight,
+} from "lucide-react";
 import { Logo } from "./Logo";
 import { EMAIL, PHONE, SOCIALS } from "./data";
-
 
 const NAV = ["Sobre Nós", "Soluções", "Resultados", "Método", "Conteúdos"];
 const SOL = ["Aquisição", "Conversão", "Comercial", "CRM & Dados", "Perpetuação"];
@@ -14,20 +22,44 @@ export function Footer() {
           <div>
             <Logo />
             <p className="mt-5 max-w-xs text-xs leading-relaxed text-muted-foreground">
-              Especialistas em marketing, vendas e gestão para empresas de Home Care que
-              querem crescer com previsibilidade.
+              Especialistas em marketing, vendas e gestão para empresas de Home Care que querem
+              crescer com previsibilidade.
             </p>
             <div className="mt-6 flex gap-4 text-muted-foreground">
-              <a href={SOCIALS.instagram} target="_blank" rel="noreferrer" aria-label="Instagram" className="hover:text-brand-soft">
+              <a
+                href={SOCIALS.instagram}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+                className="hover:text-brand-soft"
+              >
                 <Instagram className="h-4 w-4" />
               </a>
-              <a href={SOCIALS.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-brand-soft">
+              <a
+                href={SOCIALS.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+                className="hover:text-brand-soft"
+              >
                 <Linkedin className="h-4 w-4" />
               </a>
-              <a href={SOCIALS.youtube} target="_blank" rel="noreferrer" aria-label="YouTube" className="hover:text-brand-soft">
+              <a
+                href={SOCIALS.youtube}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="YouTube"
+                className="hover:text-brand-soft"
+              >
                 <Youtube className="h-4 w-4" />
               </a>
-              <a href={SOCIALS.facebook} target="_blank" rel="noreferrer" aria-label="Facebook" className="hover:text-brand-soft">
+              <a
+                href={SOCIALS.facebook}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+                className="hover:text-brand-soft"
+              >
                 <Facebook className="h-4 w-4" />
               </a>
             </div>

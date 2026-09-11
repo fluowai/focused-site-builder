@@ -65,9 +65,7 @@
   --color-surface-2: var(--surface-2);
   --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
-
 }
-
 
 :root {
   --radius: 0.625rem;
@@ -181,5 +179,4 @@
   html {
     scroll-behavior: smooth;
   }
-
 }
