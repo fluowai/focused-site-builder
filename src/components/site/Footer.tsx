@@ -1,6 +1,6 @@
 import { Instagram, Linkedin, Youtube, Facebook, Phone, Mail, MapPin, ArrowRight } from "lucide-react";
 import { Logo } from "./Logo";
-import { EMAIL, PHONE } from "./data";
+import { EMAIL, PHONE, SOCIALS } from "./data";
 
 
 const NAV = ["Sobre Nós", "Soluções", "Resultados", "Método", "Conteúdos"];
@@ -18,16 +18,16 @@ export function Footer() {
               querem crescer com previsibilidade.
             </p>
             <div className="mt-6 flex gap-4 text-muted-foreground">
-              <a href="https://instagram.com" aria-label="Instagram" className="hover:text-brand-soft">
+              <a href={SOCIALS.instagram} target="_blank" rel="noreferrer" aria-label="Instagram" className="hover:text-brand-soft">
                 <Instagram className="h-4 w-4" />
               </a>
-              <a href="https://linkedin.com" aria-label="LinkedIn" className="hover:text-brand-soft">
+              <a href={SOCIALS.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-brand-soft">
                 <Linkedin className="h-4 w-4" />
               </a>
-              <a href="https://youtube.com" aria-label="YouTube" className="hover:text-brand-soft">
+              <a href={SOCIALS.youtube} target="_blank" rel="noreferrer" aria-label="YouTube" className="hover:text-brand-soft">
                 <Youtube className="h-4 w-4" />
               </a>
-              <a href="https://facebook.com" aria-label="Facebook" className="hover:text-brand-soft">
+              <a href={SOCIALS.facebook} target="_blank" rel="noreferrer" aria-label="Facebook" className="hover:text-brand-soft">
                 <Facebook className="h-4 w-4" />
               </a>
             </div>

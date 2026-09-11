@@ -47,7 +47,7 @@ const NUMBERS = [
 
 export function Solutions() {
   return (
-    <section id="solucoes" className="scroll-mt-24">
+    <section id="solucoes" className="theme-light scroll-mt-24 bg-background">
       <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-24">
         <div className="grid gap-10 lg:grid-cols-[1.75fr_1fr]">
           <div id="metodo" className="scroll-mt-24">

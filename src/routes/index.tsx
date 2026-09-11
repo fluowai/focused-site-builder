@@ -5,6 +5,7 @@ import { About } from "@/components/site/About";
 import { Solutions } from "@/components/site/Solutions";
 import { FinalCta } from "@/components/site/FinalCta";
 import { Footer } from "@/components/site/Footer";
+import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
 
 const TITLE = "Auditorium Corporate | Crescimento previsível para Home Care";
 const DESCRIPTION =
@@ -39,6 +40,7 @@ function Index() {
         <FinalCta />
       </main>
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 }

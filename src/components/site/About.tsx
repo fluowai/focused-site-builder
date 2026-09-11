@@ -3,7 +3,7 @@ import founder from "@/assets/founder-maycon.jpg";
 
 export function About() {
   return (
-    <section id="sobre" className="theme-light scroll-mt-24 bg-background">
+    <section id="sobre" className="scroll-mt-24 bg-background">
       <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-24">
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
