@@ -130,6 +130,8 @@
   --surface: oklch(0.965 0.01 256);
   --surface-2: oklch(0.93 0.016 258);
 }
+
+.dark {
   --background: oklch(0.129 0.042 264.695);
   --foreground: oklch(0.984 0.003 247.858);
   --card: oklch(0.208 0.042 265.755);
