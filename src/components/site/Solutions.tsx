@@ -60,7 +60,7 @@ export function Solutions() {
               <span className="text-brand-soft">gerar, converter e perpetuar.</span>
             </h2>
 
-            <div className="mt-10 grid gap-5 sm:grid-cols-2 xl:grid-cols-5">
+            <div className="mt-10 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
               {CARDS.map(({ icon: Icon, title, text }) => (
                 <div
                   key={title}
