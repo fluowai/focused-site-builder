@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
+import { TrustStrip } from "@/components/site/TrustStrip";
 import { About } from "@/components/site/About";
 import { Solutions } from "@/components/site/Solutions";
 import { FinalCta } from "@/components/site/FinalCta";
@@ -9,7 +10,7 @@ import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
 
 const TITLE = "Auditorium Corporate | Crescimento previsível para Home Care";
 const DESCRIPTION =
-  "Marketing, comercial e gestão integrados em um método exclusivo para empresas de Home Care crescerem com previsibilidade.";
+  "Marketing, comercial e gestão integrados no Método Pódium: o sistema exclusivo para empresas de Home Care crescerem com previsibilidade.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -35,6 +36,7 @@ function Index() {
       <Header />
       <main>
         <Hero />
+        <TrustStrip />
         <About />
         <Solutions />
         <FinalCta />

@@ -8,6 +8,6 @@ export const PHONE = "(11) 93621-1314";
 export const SOCIALS = {
   instagram: "https://instagram.com/audi.corporate",
   linkedin: "https://www.linkedin.com/company/auditorium-corporate",
-  youtube: "https://youtube.com/@auditoriumcorporate?si=ADF8XwZkwhXII1SL",
-  facebook: "https://www.facebook.com/share/1JJn5aDGYv/?",
+  youtube: "https://youtube.com/@auditoriumcorporate",
+  facebook: "https://www.facebook.com/share/1JJn5aDGYv/",
 };
